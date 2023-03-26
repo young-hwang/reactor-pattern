@@ -10,6 +10,13 @@ repositories {
 }
 
 dependencies {
+    //implementation 'org.simpleframework:simple-xml:2.8.0'
+    // https://mvnrepository.com/artifact/org.simpleframework/simple
+//implementation 'org.simpleframework:simple:2.7'
+
+// https://mvnrepository.com/artifact/org.simpleframework/simple-xml
+implementation 'org.simpleframework:simple-xml:2.7.1'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
