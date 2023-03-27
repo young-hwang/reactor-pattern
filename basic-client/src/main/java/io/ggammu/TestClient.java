@@ -27,7 +27,7 @@ public class TestClient {
                 outputStream2.write(message.getBytes());
                 socket.close();
 
-                Thread.sleep(3000);
+                Thread.sleep(1000);
             } catch (UnknownHostException e) {
                 e.printStackTrace();
             } catch (IOException e) {
