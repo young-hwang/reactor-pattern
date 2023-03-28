@@ -20,7 +20,6 @@ public class Demultiplex implements Runnable {
     @Override
     public void run() {
         InputStreamReader inputStreamReader = null;
-        System.out.println("Thread name " + Thread.currentThread().getName());
         try {
             InputStream inputStream = socket.getInputStream();
             byte[] buffer = new byte[HEADER_SIZE];

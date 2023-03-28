@@ -35,7 +35,7 @@ public class StreamSayHelloEventHandler implements EventHandler{
     }
 
     private void sayHello(String[] params) {
-        System.out.println("sayHello -> name : " + params[0] + " age : " + params[1]);
+        System.out.println("sayHello -> name : " + params[0] + " age : " + params[1] + " " + Thread.currentThread().getName());
     }
 
 }

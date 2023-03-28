@@ -40,7 +40,8 @@ public class StreamUpdateProfileEventHandler implements EventHandler {
                 " password : " + params[1] +
                 " name : " + params[2] +
                 " age : " + params[3] +
-                " gender : " + params[4]
+                " gender : " + params[4] +
+                " " + Thread.currentThread().getName()
         );
     }
 
